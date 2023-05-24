@@ -20,6 +20,10 @@ export const useStyles = makeStyles({
     title: {
         fontSize: "20px",
         padding: "40px",
+        display: "flex",
+        justifyContent: "center",
+        flexDirection: "column",
+        alignItems: "center",
     },
     bodyWrap: {
         display: "flex",
@@ -43,5 +47,26 @@ export const useStyles = makeStyles({
             boxShadow:
                 "0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22)",
         },
+    },
+    writingWrap: {
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
+        width: "80%",
+        alignItems: "center",
+        color: "#e9ecef",
+    },
+    writing: {
+        color: "#ababab",
+    },
+    category: {
+        color: "#000",
+    },
+    description: {
+        fontSize: "14px",
+        display: "flex",
+        width: "80%",
+        boxSizing: "border-box",
+        padding: "20px",
     },
 });
